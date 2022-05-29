@@ -1,0 +1,21 @@
+{
+  "name": "tv-maze",
+  "description": "Webcomponent tv-maze following open-wc recommendations",
+  "license": "MIT",
+  "author": "tv-maze",
+  "version": "0.0.0",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bootstrap": "^5.1.3",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@web/dev-server": "^0.1.28"
+  },
+  "customElements": "custom-elements.json"
+}
